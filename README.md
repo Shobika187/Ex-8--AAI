@@ -52,7 +52,9 @@ except Exception as e:
 ```
 
 <H3> Output:</H3>
-![image](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/5bee81da-2f14-4e0c-962a-b89c968df9a8)
+
+![image](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/e4139483-4953-478b-9736-144a4b02dee4)
+
 
 
 ![exp8](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/e5531ad1-1b90-42da-becf-c7742f7c1fab)
