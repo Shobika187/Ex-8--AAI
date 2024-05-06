@@ -48,8 +48,9 @@ except sr.RequestError as e:
     print(f'Error with the request to Google Speech Recognition Service: {e}')
 except Exception as e:
     print(f'Error: {e}')
-```
-<H3> Output:</H3>
+
+
+## OUTPUT:
 ![image](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/b41c7ec3-dedd-49b5-a0e6-44e4c1cfac7f)
 ![exp8](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/bf85a840-7ca2-475a-9c2c-0c79630555bf)
 
