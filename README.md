@@ -1,7 +1,7 @@
- <H3>ENTER YOUR NAME Shobika P</H3>
-<H3>ENTER YOUR REGISTER NO. 212221230096</H3>
-<H3>EX. NO.8</H3>
-
+ <H3>ENTER YOUR NAME :SHOBIKA P</H3>
+<H3>ENTER YOUR REGISTER NO: 212221230096</H3>
+<H3>EX. NO:8</H3>
+<H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of Speech Recognition</H1>
 <H3>Aim:</H3> 
  To implement the conversion of live speech to text.<BR>
@@ -21,6 +21,7 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
 <H3>Program:</H3>
+
 ```
 import pyaudio 
 import speech_recognition as sr
@@ -32,7 +33,7 @@ duration = 10
 #Record audio
 print("Say Something")
 # Assign a string variable "file" with the name of the audio file that you want to transcribe.
-file ="/content/Adver.wav"
+file =  "/content/Adver.wav"
 
 
 with sr.AudioFile(file) as source:
@@ -48,14 +49,13 @@ except sr.RequestError as e:
     print(f'Error with the request to Google Speech Recognition Service: {e}')
 except Exception as e:
     print(f'Error: {e}')
+```
+
+<H3> Output:</H3>
+![image](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/5bee81da-2f14-4e0c-962a-b89c968df9a8)
 
 
-## OUTPUT:
-![image](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/b41c7ec3-dedd-49b5-a0e6-44e4c1cfac7f)
-![exp8](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/bf85a840-7ca2-475a-9c2c-0c79630555bf)
-
-
-
+![exp8](https://github.com/Shobika187/Ex-8--AAI/assets/94508142/e5531ad1-1b90-42da-becf-c7742f7c1fab)
 
 <H3> Result:</H3>
 Thus, we have implemented a program that will transcribe the audio file in the file variable and print the transcribed text on the console, one line at a time.
